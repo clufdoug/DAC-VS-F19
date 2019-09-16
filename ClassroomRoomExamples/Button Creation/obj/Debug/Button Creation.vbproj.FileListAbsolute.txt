@@ -1,0 +1,12 @@
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Button Creation\obj\Debug\Button Creation.vbprojAssemblyReference.cache
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Button Creation\obj\Debug\Button_Creation.Form1.resources
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Button Creation\obj\Debug\Button_Creation.Resources.resources
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Button Creation\obj\Debug\Button Creation.vbproj.GenerateResource.cache
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Button Creation\obj\Debug\Button Creation.vbproj.CoreCompileInputs.cache
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Button Creation\bin\Debug\Button Creation.exe.config
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Button Creation\bin\Debug\Button Creation.exe
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Button Creation\bin\Debug\Button Creation.pdb
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Button Creation\bin\Debug\Button Creation.xml
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Button Creation\obj\Debug\Button Creation.exe
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Button Creation\obj\Debug\Button Creation.xml
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Button Creation\obj\Debug\Button Creation.pdb
