@@ -10,3 +10,15 @@ C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\obj\Debug\Asg1-1.e
 C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\obj\Debug\Asg1-1.xml
 C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\obj\Debug\Asg1-1.pdb
 C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\obj\Debug\Asg1_1.Form1.resources
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\obj\Debug\Asg1-1.vbprojAssemblyReference.cache
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\obj\Debug\Asg1_1.Resources.resources
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\obj\Debug\Asg1-1.vbproj.GenerateResource.cache
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\obj\Debug\Asg1-1.vbproj.CoreCompileInputs.cache
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\obj\Debug\Asg1-1.exe
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\obj\Debug\Asg1-1.xml
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\obj\Debug\Asg1-1.pdb
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\bin\Debug\Asg1-1.exe.config
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\bin\Debug\Asg1-1.exe
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\bin\Debug\Asg1-1.pdb
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\bin\Debug\Asg1-1.xml
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\obj\Debug\Asg1_1.Hello_World.resources
