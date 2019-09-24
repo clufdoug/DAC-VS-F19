@@ -1,5 +1,0 @@
-C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\Asg1-1\obj\Debug\Asg1-1.vbprojAssemblyReference.cache
-C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\Asg1-1\obj\Debug\Asg1_1.Form1.resources
-C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\Asg1-1\obj\Debug\Asg1_1.Resources.resources
-C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\Asg1-1\obj\Debug\Asg1-1.vbproj.GenerateResource.cache
-C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg1-1\Asg1-1\obj\Debug\Asg1-1.vbproj.CoreCompileInputs.cache
