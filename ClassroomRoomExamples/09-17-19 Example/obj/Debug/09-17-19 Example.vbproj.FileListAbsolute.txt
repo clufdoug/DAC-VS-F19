@@ -10,3 +10,15 @@ C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\09-17-19 Exampl
 C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\09-17-19 Example\obj\Debug\09-17-19 Example.exe
 C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\09-17-19 Example\obj\Debug\09-17-19 Example.xml
 C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\09-17-19 Example\obj\Debug\09-17-19 Example.pdb
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\09-17-19 Example\bin\Debug\09-17-19 Example.exe.config
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\09-17-19 Example\bin\Debug\09-17-19 Example.exe
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\09-17-19 Example\bin\Debug\09-17-19 Example.pdb
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\09-17-19 Example\bin\Debug\09-17-19 Example.xml
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\09-17-19 Example\obj\Debug\09-17-19 Example.vbprojAssemblyReference.cache
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\09-17-19 Example\obj\Debug\_09_17_19_Example.UserInputForm.resources
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\09-17-19 Example\obj\Debug\_09_17_19_Example.Resources.resources
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\09-17-19 Example\obj\Debug\09-17-19 Example.vbproj.GenerateResource.cache
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\09-17-19 Example\obj\Debug\09-17-19 Example.vbproj.CoreCompileInputs.cache
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\09-17-19 Example\obj\Debug\09-17-19 Example.exe
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\09-17-19 Example\obj\Debug\09-17-19 Example.xml
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\09-17-19 Example\obj\Debug\09-17-19 Example.pdb
