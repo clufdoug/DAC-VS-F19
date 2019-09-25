@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "State Flags", "State Flags.vbproj", "{8B2C6B1C-2269-45D5-BA09-56F9371C540F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B2C6B1C-2269-45D5-BA09-56F9371C540F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2C6B1C-2269-45D5-BA09-56F9371C540F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2C6B1C-2269-45D5-BA09-56F9371C540F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2C6B1C-2269-45D5-BA09-56F9371C540F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D06C8D7-9849-48AF-AC42-46777BD792C8}
+	EndGlobalSection
+EndGlobal
