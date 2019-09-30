@@ -37,16 +37,33 @@ Public Class CompareForm
     Sub CompareStrings()
         Dim firstString As String
         Dim secondString As String
-        Dim x As String
+        Dim x As Integer
+        Dim amount As Integer
+        amount = 1
 
-        firstString = "z"
-        secondString = "Z"
+
+        firstString = "abcd"
+        secondString = "abde"
         'x = Hex(90)
         'x = Chr(90)
 
-        Console.WriteLine(firstString < secondString)
+        x = Len(firstString)
+        Console.WriteLine("before the loop" & Str(x))
+
+        For i = 1 To 10
+            firstString &= "!"
+            Console.WriteLine(firstString)
+        Next
+        x = Len(firstString)
+        'Console.WriteLine(firstString < secondString)
+        Console.WriteLine("after the loop" & Str(x))
         'Console.WriteLine(x)
 
 
     End Sub
+    Sub MessageWithButtons()
+        Dim returnValue As DialogResult
+        returnValue = MessageBox.Show("This is the message", "Heading", MessageBoxButtons.AbortRetryIgnore)
+    End Sub
+
 End Class

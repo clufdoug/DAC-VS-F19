@@ -22,5 +22,71 @@ State Flags
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:State_Flags.My.Resources.Resource">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:State_Flags.My.Resources.Resource.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:State_Flags.My.Resources.Resource.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:State_Flags.My.Resources.Resource.Flag_of_Alabama">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:State_Flags.My.Resources.Resource.Flag_of_Arizona">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:State_Flags.My.Resources.Resource.Flag_of_California">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:State_Flags.My.Resources.Resource.Flag_of_Colorado">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:State_Flags.My.Resources.Resource.Flag_of_Idaho">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:State_Flags.My.Resources.Resource.Flag_of_Nevada">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:State_Flags.My.Resources.Resource.Flag_of_Oregon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:State_Flags.My.Resources.Resource.Flag_of_Utah">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:State_Flags.My.Resources.Resource.Flag_of_Washington">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:State_Flags.My.Resources.Resource.Flag_of_Wyoming">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

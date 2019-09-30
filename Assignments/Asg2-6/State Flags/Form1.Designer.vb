@@ -23,8 +23,6 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.State_Label = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Exit_Button = New System.Windows.Forms.Button()
         Me.AlabButton = New System.Windows.Forms.Button()
@@ -37,13 +35,13 @@ Partial Class Form1
         Me.UtahButton = New System.Windows.Forms.Button()
         Me.WashButton = New System.Windows.Forms.Button()
         Me.WyomButton = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.State_Label)
         Me.GroupBox1.Controls.Add(Me.PictureBox1)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(282, 12)
@@ -52,23 +50,6 @@ Partial Class Form1
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "State Details"
-        '
-        'State_Label
-        '
-        Me.State_Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.State_Label.Location = New System.Drawing.Point(42, 36)
-        Me.State_Label.Name = "State_Label"
-        Me.State_Label.Size = New System.Drawing.Size(342, 38)
-        Me.State_Label.TabIndex = 1
-        Me.State_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Location = New System.Drawing.Point(6, 57)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(399, 270)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
         '
         'Label1
         '
@@ -179,6 +160,16 @@ Partial Class Form1
         Me.WyomButton.Text = "Wyoming"
         Me.WyomButton.UseVisualStyleBackColor = True
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox1.Location = New System.Drawing.Point(6, 57)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(399, 270)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 20.0!)
@@ -208,9 +199,7 @@ Partial Class Form1
 
     End Sub
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents State_Label As Label
     Friend WithEvents Exit_Button As Button
     Friend WithEvents AlabButton As Button
     Friend WithEvents ArizButton As Button
@@ -222,4 +211,5 @@ Partial Class Form1
     Friend WithEvents UtahButton As Button
     Friend WithEvents WashButton As Button
     Friend WithEvents WyomButton As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
