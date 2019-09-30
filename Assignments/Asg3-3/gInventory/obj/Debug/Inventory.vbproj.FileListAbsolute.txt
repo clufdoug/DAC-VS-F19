@@ -1,0 +1,12 @@
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-3\gInventory\bin\Debug\gInventory.exe.config
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-3\gInventory\bin\Debug\gInventory.exe
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-3\gInventory\bin\Debug\gInventory.pdb
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-3\gInventory\bin\Debug\gInventory.xml
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-3\gInventory\obj\Debug\Inventory.vbprojAssemblyReference.cache
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-3\gInventory\obj\Debug\gInventory.Form1.resources
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-3\gInventory\obj\Debug\gInventory.Resources.resources
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-3\gInventory\obj\Debug\Inventory.vbproj.GenerateResource.cache
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-3\gInventory\obj\Debug\Inventory.vbproj.CoreCompileInputs.cache
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-3\gInventory\obj\Debug\gInventory.exe
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-3\gInventory\obj\Debug\gInventory.xml
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-3\gInventory\obj\Debug\gInventory.pdb
