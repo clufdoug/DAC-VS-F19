@@ -1,0 +1,12 @@
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-6\Shipping Calculator\bin\Debug\Shipping Calculator.exe.config
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-6\Shipping Calculator\bin\Debug\Shipping Calculator.exe
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-6\Shipping Calculator\bin\Debug\Shipping Calculator.pdb
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-6\Shipping Calculator\bin\Debug\Shipping Calculator.xml
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-6\Shipping Calculator\obj\Debug\Shipping Calculator.vbprojAssemblyReference.cache
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-6\Shipping Calculator\obj\Debug\Shipping_Calculator.ShipCalc.resources
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-6\Shipping Calculator\obj\Debug\Shipping_Calculator.Resources.resources
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-6\Shipping Calculator\obj\Debug\Shipping Calculator.vbproj.GenerateResource.cache
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-6\Shipping Calculator\obj\Debug\Shipping Calculator.vbproj.CoreCompileInputs.cache
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-6\Shipping Calculator\obj\Debug\Shipping Calculator.exe
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-6\Shipping Calculator\obj\Debug\Shipping Calculator.xml
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg3-6\Shipping Calculator\obj\Debug\Shipping Calculator.pdb
