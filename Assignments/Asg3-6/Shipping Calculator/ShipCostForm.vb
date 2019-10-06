@@ -16,9 +16,6 @@ Public Class ShipCalc
     Dim errorMsg As String
     Dim idText As Integer
 
-
-
-
     'Private Sub ShipCalc_Load(sender As Object, e As EventArgs) Handles MyBase.Load
     '    If OzTextBox.Text <> "" And LbsTextBox.Text <> "" And IdLabel.Text <> "" Then
     '        CalculateButton.Enabled = True
@@ -62,17 +59,11 @@ Public Class ShipCalc
             IdTextBox.Focus()
         End If
 
-
         If errorMsg <> "" Then
             MessageBox.Show(errorMsg, "Error")
         Else
             WeightCalc()
         End If
-
-
-
-
-
         ShipCostTextBox.Text = (totalCost.ToString("C"))
     End Sub
 
