@@ -67,6 +67,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Public Shared ReadOnly Property _50_us_state_flags__31031_1411402035() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("50_us_state_flags__31031.1411402035", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Public Shared ReadOnly Property Flag_of_Alabama() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Flag_of_Alabama", resourceCulture)

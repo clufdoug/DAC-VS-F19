@@ -38,6 +38,11 @@ State Flags
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:State_Flags.My.Resources.Resource._50_us_state_flags__31031_1411402035">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:State_Flags.My.Resources.Resource.Flag_of_Alabama">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

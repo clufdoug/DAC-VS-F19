@@ -3,7 +3,6 @@ C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\b
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\bin\Debug\State Flags.pdb
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\bin\Debug\State Flags.xml
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\obj\Debug\State Flags.vbprojAssemblyReference.cache
-C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\obj\Debug\State_Flags.Form1.resources
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\obj\Debug\State_Flags.Resources.resources
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\obj\Debug\State Flags.vbproj.GenerateResource.cache
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\obj\Debug\State Flags.vbproj.CoreCompileInputs.cache
@@ -23,3 +22,5 @@ C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\bin\De
 C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\bin\Debug\State Flags.exe
 C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\bin\Debug\State Flags.pdb
 C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\bin\Debug\State Flags.xml
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\obj\Debug\State_Flags.StateFlags.resources
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\obj\Debug\State_Flags.Resource.resources
