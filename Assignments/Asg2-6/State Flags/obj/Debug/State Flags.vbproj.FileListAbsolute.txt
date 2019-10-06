@@ -9,6 +9,7 @@ C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\o
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\obj\Debug\State Flags.exe
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\obj\Debug\State Flags.xml
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\obj\Debug\State Flags.pdb
+<<<<<<< HEAD
 C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\obj\Debug\State Flags.vbprojAssemblyReference.cache
 C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\obj\Debug\State_Flags.Form1.resources
 C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\obj\Debug\State_Flags.Resources.resources
@@ -24,3 +25,5 @@ C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\bin\De
 C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\bin\Debug\State Flags.xml
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\obj\Debug\State_Flags.StateFlags.resources
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg2-6\State Flags\obj\Debug\State_Flags.Resource.resources
+=======
+>>>>>>> parent of b603111... 09-30 update
