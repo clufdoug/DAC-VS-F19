@@ -1,0 +1,13 @@
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\10-2_Example\bin\Debug\10-2_Example.exe.config
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\10-2_Example\bin\Debug\10-2_Example.exe
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\10-2_Example\bin\Debug\10-2_Example.pdb
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\10-2_Example\bin\Debug\10-2_Example.xml
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\10-2_Example\obj\Debug\10-2_Example.vbprojAssemblyReference.cache
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\10-2_Example\obj\Debug\_10_2_Example.Resources.resources
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\10-2_Example\obj\Debug\_10_2_Example.ReusableCode.resources
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\10-2_Example\obj\Debug\10-2_Example.vbproj.GenerateResource.cache
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\10-2_Example\obj\Debug\10-2_Example.vbproj.CoreCompileInputs.cache
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\10-2_Example\obj\Debug\10-2_Example.exe
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\10-2_Example\obj\Debug\10-2_Example.xml
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\10-2_Example\obj\Debug\10-2_Example.pdb
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\10-2_Example\obj\Debug\_10_2_Example.SecondForm.resources
