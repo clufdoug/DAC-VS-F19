@@ -145,7 +145,8 @@ Partial Class StockAdvisorForm
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
+        Me.AboutToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.A), System.Windows.Forms.Keys)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(149, 22)
         Me.AboutToolStripMenuItem.Text = "&About"
         '
         'MondayGroupBox
@@ -187,6 +188,7 @@ Partial Class StockAdvisorForm
         Me.MondayStockPriceTextBox.Name = "MondayStockPriceTextBox"
         Me.MondayStockPriceTextBox.Size = New System.Drawing.Size(232, 31)
         Me.MondayStockPriceTextBox.TabIndex = 1
+        Me.MondayStockPriceTextBox.Text = "1"
         '
         'MondayStockNameTextBox
         '
@@ -194,6 +196,7 @@ Partial Class StockAdvisorForm
         Me.MondayStockNameTextBox.Name = "MondayStockNameTextBox"
         Me.MondayStockNameTextBox.Size = New System.Drawing.Size(354, 31)
         Me.MondayStockNameTextBox.TabIndex = 0
+        Me.MondayStockNameTextBox.Text = "1"
         '
         'TuesdayGroupBox
         '
@@ -234,6 +237,7 @@ Partial Class StockAdvisorForm
         Me.TuesdayStockPriceTextBox.Name = "TuesdayStockPriceTextBox"
         Me.TuesdayStockPriceTextBox.Size = New System.Drawing.Size(232, 31)
         Me.TuesdayStockPriceTextBox.TabIndex = 1
+        Me.TuesdayStockPriceTextBox.Text = "1"
         '
         'TuesdayStockNameTextBox
         '
@@ -241,6 +245,7 @@ Partial Class StockAdvisorForm
         Me.TuesdayStockNameTextBox.Name = "TuesdayStockNameTextBox"
         Me.TuesdayStockNameTextBox.Size = New System.Drawing.Size(354, 31)
         Me.TuesdayStockNameTextBox.TabIndex = 0
+        Me.TuesdayStockNameTextBox.Text = "1"
         '
         'WednesdayGroupBox
         '
@@ -281,6 +286,7 @@ Partial Class StockAdvisorForm
         Me.WednesdayStockPriceTextBox.Name = "WednesdayStockPriceTextBox"
         Me.WednesdayStockPriceTextBox.Size = New System.Drawing.Size(232, 31)
         Me.WednesdayStockPriceTextBox.TabIndex = 1
+        Me.WednesdayStockPriceTextBox.Text = "1"
         '
         'WednesdayStockNameTextBox
         '
@@ -288,6 +294,7 @@ Partial Class StockAdvisorForm
         Me.WednesdayStockNameTextBox.Name = "WednesdayStockNameTextBox"
         Me.WednesdayStockNameTextBox.Size = New System.Drawing.Size(354, 31)
         Me.WednesdayStockNameTextBox.TabIndex = 0
+        Me.WednesdayStockNameTextBox.Text = "1"
         '
         'CalculateButton
         '
