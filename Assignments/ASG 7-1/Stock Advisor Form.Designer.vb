@@ -196,7 +196,7 @@ Partial Class StockAdvisorForm
         Me.MondayStockNameTextBox.Name = "MondayStockNameTextBox"
         Me.MondayStockNameTextBox.Size = New System.Drawing.Size(354, 31)
         Me.MondayStockNameTextBox.TabIndex = 0
-        Me.MondayStockNameTextBox.Text = "1"
+        Me.MondayStockNameTextBox.Text = "toby"
         '
         'TuesdayGroupBox
         '

@@ -9,14 +9,12 @@ Option Explicit On
 
 Public Class StockAdvisorForm
 
-    Dim mondayStockName As String = MondayStockNameTextBox.Text
-    Dim mondayStockPrice As Double = Double.Parse(MondayStockPriceTextBox.Text)
-
-    Dim tuesdayStockName As String = TuesdayStockNameTextBox.Text
-    Dim tuesdayStockPrice As Double = Double.Parse(TuesdayStockPriceTextBox.Text)
-
-    Dim WednesdayStockName As String = WednesdayStockNameTextBox.Text
-    Dim WednesdayStockPrice As Double = Double.Parse(WednesdayStockPriceTextBox.Text)
+    Dim mondayStockName As String
+    Dim mondayStockPrice As Double
+    Dim tuesdayStockName As String
+    Dim tuesdayStockPrice As Double
+    Dim wednesdayStockName As String
+    Dim wednesdayStockPrice As Double
 
     Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles ExitButton.Click, ExitToolStripMenuItem.Click
         Me.Close()
@@ -28,12 +26,15 @@ Public Class StockAdvisorForm
 
     Private Sub Calculate(sender As Object, e As EventArgs) Handles CalculateButton.Click, CalculateToolStripMenuItem.Click
 
-
-        Console.WriteLine("Mondays Stock " & mondayStockName & "Costs" & mondayStockPrice)
-
-        Console.WriteLine("Tuesdays Stock " & tuesdayStockName & "Costs" & tuesdayStockPrice)
-
-        Console.WriteLine("Wednesdays Stock " & WednesdayStockName & "Costs" & WednesdayStockPrice)
+        mondayStockName = MondayStockNameTextBox.Text
+        mondayStockPrice = Integer.Parse(MondayStockPriceTextBox.Text)
+        Console.WriteLine("Mondays Stock " & mondayStockName & " Costs " & mondayStockPrice)
+        tuesdayStockName = TuesdayStockNameTextBox.Text
+        tuesdayStockPrice = Integer.Parse(TuesdayStockPriceTextBox.Text)
+        Console.WriteLine("Tuesdays Stock " & tuesdayStockName & " Costs " & tuesdayStockPrice)
+        wednesdayStockName = WednesdayStockNameTextBox.Text
+        wednesdayStockPrice = Integer.Parse(WednesdayStockPriceTextBox.Text)
+        Console.WriteLine("Wednesdays Stock " & wednesdayStockName & " Costs " & wednesdayStockPrice)
 
     End Sub
 
