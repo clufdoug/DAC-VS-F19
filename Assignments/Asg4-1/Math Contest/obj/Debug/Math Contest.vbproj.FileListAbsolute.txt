@@ -6,7 +6,6 @@ C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg4-1\Math Contest\
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg4-1\Math Contest\obj\Debug\Math_Contest.ContestForm.resources
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg4-1\Math Contest\obj\Debug\Math_Contest.Resources.resources
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg4-1\Math Contest\obj\Debug\Math Contest.vbproj.GenerateResource.cache
-C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg4-1\Math Contest\obj\Debug\Math Contest.vbproj.CoreCompileInputs.cache
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg4-1\Math Contest\obj\Debug\Math Contest.exe
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg4-1\Math Contest\obj\Debug\Math Contest.xml
 C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\Asg4-1\Math Contest\obj\Debug\Math Contest.pdb
