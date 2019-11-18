@@ -1,0 +1,11 @@
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Lists Example\bin\Debug\Lists Example.exe.config
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Lists Example\bin\Debug\Lists Example.exe
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Lists Example\bin\Debug\Lists Example.pdb
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Lists Example\bin\Debug\Lists Example.xml
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Lists Example\obj\Debug\Lists Example.vbprojAssemblyReference.cache
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Lists Example\obj\Debug\Lists_Example.Resources.resources
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Lists Example\obj\Debug\Lists Example.vbproj.GenerateResource.cache
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Lists Example\obj\Debug\Lists Example.vbproj.CoreCompileInputs.cache
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Lists Example\obj\Debug\Lists Example.exe
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Lists Example\obj\Debug\Lists Example.xml
+C:\Users\cfrgr\Documents\GitHub\DAC-VS-F19\ClassroomRoomExamples\Lists Example\obj\Debug\Lists Example.pdb
