@@ -300,6 +300,7 @@ Partial Class rentalForm
         '
         Me.milesDrivenLabel.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.milesDrivenLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.milesDrivenLabel.ForeColor = System.Drawing.SystemColors.Window
         Me.milesDrivenLabel.Location = New System.Drawing.Point(504, 16)
         Me.milesDrivenLabel.Name = "milesDrivenLabel"
         Me.milesDrivenLabel.Size = New System.Drawing.Size(128, 24)
@@ -320,6 +321,7 @@ Partial Class rentalForm
         '
         Me.mileChargeLabel.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.mileChargeLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.mileChargeLabel.ForeColor = System.Drawing.SystemColors.Window
         Me.mileChargeLabel.Location = New System.Drawing.Point(504, 48)
         Me.mileChargeLabel.Name = "mileChargeLabel"
         Me.mileChargeLabel.Size = New System.Drawing.Size(128, 24)
@@ -360,6 +362,7 @@ Partial Class rentalForm
         '
         Me.dayChargeLabel.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.dayChargeLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.dayChargeLabel.ForeColor = System.Drawing.SystemColors.Window
         Me.dayChargeLabel.Location = New System.Drawing.Point(504, 80)
         Me.dayChargeLabel.Name = "dayChargeLabel"
         Me.dayChargeLabel.Size = New System.Drawing.Size(128, 24)
@@ -370,6 +373,7 @@ Partial Class rentalForm
         '
         Me.discountLabel.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.discountLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.discountLabel.ForeColor = System.Drawing.SystemColors.Window
         Me.discountLabel.Location = New System.Drawing.Point(504, 112)
         Me.discountLabel.Name = "discountLabel"
         Me.discountLabel.Size = New System.Drawing.Size(128, 24)
@@ -380,6 +384,7 @@ Partial Class rentalForm
         '
         Me.youOweLabel.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.youOweLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.youOweLabel.ForeColor = System.Drawing.SystemColors.Window
         Me.youOweLabel.Location = New System.Drawing.Point(504, 144)
         Me.youOweLabel.Name = "youOweLabel"
         Me.youOweLabel.Size = New System.Drawing.Size(128, 24)
