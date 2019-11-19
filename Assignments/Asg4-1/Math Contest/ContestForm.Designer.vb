@@ -283,7 +283,7 @@ Partial Class ContestForm
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(169, 44)
         Me.ClearButton.TabIndex = 9
-        Me.ClearButton.Text = "Clear"
+        Me.ClearButton.Text = "&Clear"
         Me.ToolTip1.SetToolTip(Me.ClearButton, "Clear the form")
         Me.ClearButton.UseVisualStyleBackColor = True
         '
@@ -325,7 +325,7 @@ Partial Class ContestForm
         Me.SubmitButton.Name = "SubmitButton"
         Me.SubmitButton.Size = New System.Drawing.Size(169, 44)
         Me.SubmitButton.TabIndex = 8
-        Me.SubmitButton.Text = "Submit"
+        Me.SubmitButton.Text = "&Submit"
         Me.ToolTip1.SetToolTip(Me.SubmitButton, "Submit answer")
         Me.SubmitButton.UseVisualStyleBackColor = True
         '

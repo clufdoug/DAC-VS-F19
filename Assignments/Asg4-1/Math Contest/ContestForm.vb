@@ -21,19 +21,43 @@ Public Class ContestForm
         SubmitButton.Enabled = False
     End Sub
 
+
+
     Private Sub ContestForm_Validate()
+
+
+
 
         If AgeTextBox.TextLength = 0 Or GradeTextBox.TextLength = 0 Or NameTextBox.TextLength = 0 Then
             SubmitButton.Enabled = False
-        Else
-            Setnumbers()
+                'Integer.Parse(AgeTextBox.Text)
+            Else
+                Setnumbers()
             SubmitButton.Enabled = True
             studentName = NameTextBox.Text
-            studentAge = Integer.Parse(AgeTextBox.Text)
-            studentGrade = Integer.Parse(GradeTextBox.Text)
+
+            Try
+                studentAge = Integer.Parse(AgeTextBox.Text)
+            Catch ex As Exception
+                MessageBox.Show("Please number as for Student Age")
+                AgeTextBox.Text = ""
+                AgeTextBox.Focus()
+            End Try
+
+            Try
+                studentGrade = Integer.Parse(GradeTextBox.Text)
+            Catch ex As Exception
+                MessageBox.Show("Please number as for Student Grade")
+                GradeTextBox.Text = ""
+                GradeTextBox.Focus()
+            End Try
+
             ValidateTextBox.Text = "Hello " & studentName & " Age " & studentAge & " Grade " & studentGrade
         End If
+
     End Sub
+
+
 
     Private Sub Setnumbers() 'Resets and displays the random number for calculations
         firstNumber = randomNumber.Next(1, 10)
@@ -63,6 +87,17 @@ Public Class ContestForm
     End Sub
 
     Private Sub ClearButton_Click(sender As Object, e As EventArgs) Handles ClearButton.Click
+        AgeTextBox.Clear()
+        ValidateTextBox.Clear()
+        NameTextBox.Clear()
+        GradeTextBox.Clear()
+        AnswerTextBox.Clear()
+        FirstNumberTextBox.Clear()
+        SecondNumberTextBox.Clear()
+        AddButton.Checked = False
+        SubtractButton.Checked = False
+        MultiplyButton.Checked = False
+        DivideButton.Checked = False
 
     End Sub
 
@@ -71,8 +106,23 @@ Public Class ContestForm
     End Sub
 
     Private Sub SubmitButton_Click(sender As Object, e As EventArgs) Handles SubmitButton.Click
+
         Try
             Decimal.Parse(AnswerTextBox.Text)
+
+            MathType()
+
+            If Decimal.Parse(AnswerTextBox.Text) = compresult Then
+
+                ValidateTextBox.Text = ValidateTextBox.Text & vbNewLine & AnswerTextBox.Text & " is correct"
+            Else
+                ValidateTextBox.Text = ValidateTextBox.Text & vbNewLine & AnswerTextBox.Text & " is not correct." _
+                   & vbNewLine & " The correct answer is " & compresult
+            End If
+            AnswerTextBox.Text = ""
+            AnswerTextBox.Focus()
+            Setnumbers()
+
 
         Catch ex As Exception
             errorReply = "Answer provided must be a number"
@@ -82,22 +132,34 @@ Public Class ContestForm
         End Try
 
 
-        MathType()
-        If Decimal.Parse(AnswerTextBox.Text) = compresult Then
 
-            ValidateTextBox.Text = ValidateTextBox.Text & vbNewLine & AnswerTextBox.Text & " is correct"
-        Else
-            ValidateTextBox.Text = ValidateTextBox.Text & vbNewLine & AnswerTextBox.Text & " is not correct." _
-               & vbNewLine & " The correct answer is " & compresult
-        End If
-        AnswerTextBox.Text = ""
-        AnswerTextBox.Focus()
-        Setnumbers()
 
     End Sub
 
-    Private Sub AgeTextBox_TextChanged(sender As Object, e As EventArgs) Handles AgeTextBox.TextChanged, NameTextBox.TextChanged, GradeTextBox.TextChanged
-        ContestForm_Validate()
+    Private Sub AgeTextBox_Leave(sender As Object, e As EventArgs) Handles AgeTextBox.Leave
+
+        If Integer.Parse(AgeTextBox.Text) >= 7 And Integer.Parse(AgeTextBox.Text) <= 11 Then
+            ContestForm_Validate()
+        Else
+            MessageBox.Show("Age must be between 7 and 11")
+            AgeTextBox.Focus()
+            AgeTextBox.Text = ""
+        End If
+    End Sub
+
+
+    Private Sub NameTextBox_TextChanged(sender As Object, e As EventArgs) Handles NameTextBox.TextChanged
+
+    End Sub
+
+    Private Sub GradeTextBox_leave(sender As Object, e As EventArgs) Handles GradeTextBox.Leave
+
+        If Integer.Parse(GradeTextBox.Text) >= 1 And Integer.Parse(GradeTextBox.Text) <= 4 Then
+            ContestForm_Validate()
+        Else
+            MessageBox.Show("Grade must be between 1 and 4")
+            GradeTextBox.Focus()
+        End If
     End Sub
 
 
