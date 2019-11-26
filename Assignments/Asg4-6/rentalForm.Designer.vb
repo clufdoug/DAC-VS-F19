@@ -273,7 +273,7 @@ Partial Class rentalForm
         Me.clearButton.Name = "clearButton"
         Me.clearButton.Size = New System.Drawing.Size(75, 23)
         Me.clearButton.TabIndex = 19
-        Me.clearButton.Text = "C&lear"
+        Me.clearButton.Text = " c"
         Me.clearButton.UseVisualStyleBackColor = True
         '
         'exitButton
