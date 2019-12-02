@@ -93,7 +93,7 @@ Partial Class StockAdvisorForm
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(10, 4, 0, 4)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1080, 27)
+        Me.MenuStrip1.Size = New System.Drawing.Size(880, 27)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -350,7 +350,7 @@ Partial Class StockAdvisorForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1080, 607)
+        Me.ClientSize = New System.Drawing.Size(880, 607)
         Me.Controls.Add(Me.ExitButton)
         Me.Controls.Add(Me.SummaryButton)
         Me.Controls.Add(Me.AboutButton)

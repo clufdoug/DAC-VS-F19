@@ -1,0 +1,10 @@
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\ASG 1-1\obj\Debug\ASG 1-1.vbprojAssemblyReference.cache
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\ASG 1-1\obj\Debug\ASG_1_1.Resources.resources
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\ASG 1-1\obj\Debug\ASG 1-1.vbproj.GenerateResource.cache
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\ASG 1-1\bin\Debug\ASG 1-1.exe.config
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\ASG 1-1\bin\Debug\ASG 1-1.exe
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\ASG 1-1\bin\Debug\ASG 1-1.pdb
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\ASG 1-1\bin\Debug\ASG 1-1.xml
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\ASG 1-1\obj\Debug\ASG 1-1.exe
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\ASG 1-1\obj\Debug\ASG 1-1.xml
+C:\Users\Doug Cluff\Documents\GitHub\DAC-VS-F19\Assignments\ASG 1-1\obj\Debug\ASG 1-1.pdb
