@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class rentalForm
+Partial Class RentalForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,31 +22,32 @@ Partial Class rentalForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.nameTextBox = New System.Windows.Forms.TextBox()
-        Me.addressTextBox = New System.Windows.Forms.TextBox()
-        Me.cityTextBox = New System.Windows.Forms.TextBox()
-        Me.stateTextBox = New System.Windows.Forms.TextBox()
-        Me.zipCodeTextBox = New System.Windows.Forms.TextBox()
-        Me.beginOdometerTextBox = New System.Windows.Forms.TextBox()
-        Me.endOdometerTextBox = New System.Windows.Forms.TextBox()
-        Me.daysTextBox = New System.Windows.Forms.TextBox()
+        Me.components = New System.ComponentModel.Container()
+        Me.CustomerNameLabel = New System.Windows.Forms.Label()
+        Me.AddressLabel = New System.Windows.Forms.Label()
+        Me.CityLabel = New System.Windows.Forms.Label()
+        Me.StateLabel = New System.Windows.Forms.Label()
+        Me.ZipCodeLabel = New System.Windows.Forms.Label()
+        Me.BeginningOdometerLabel = New System.Windows.Forms.Label()
+        Me.EndingOdometerLabel = New System.Windows.Forms.Label()
+        Me.DayCountLabel = New System.Windows.Forms.Label()
+        Me.NameTextBox = New System.Windows.Forms.TextBox()
+        Me.AddressTextBox = New System.Windows.Forms.TextBox()
+        Me.CityTextBox = New System.Windows.Forms.TextBox()
+        Me.StateTextBox = New System.Windows.Forms.TextBox()
+        Me.ZipCodeTextBox = New System.Windows.Forms.TextBox()
+        Me.BeginOdometerTextBox = New System.Windows.Forms.TextBox()
+        Me.EndOdometerTextBox = New System.Windows.Forms.TextBox()
+        Me.DaysTextBox = New System.Windows.Forms.TextBox()
         Me.OdometerGroupBox = New System.Windows.Forms.GroupBox()
         Me.kilometersRadioButton = New System.Windows.Forms.RadioButton()
         Me.milesRadioButton = New System.Windows.Forms.RadioButton()
         Me.DiscountGroupBox = New System.Windows.Forms.GroupBox()
         Me.seniorCheckBox = New System.Windows.Forms.CheckBox()
         Me.aaaCheckBox = New System.Windows.Forms.CheckBox()
-        Me.calculateButton = New System.Windows.Forms.Button()
-        Me.clearButton = New System.Windows.Forms.Button()
-        Me.exitButton = New System.Windows.Forms.Button()
+        Me.CalculateButton = New System.Windows.Forms.Button()
+        Me.ClearButton = New System.Windows.Forms.Button()
+        Me.ExitButton = New System.Windows.Forms.Button()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.milesDrivenLabel = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
@@ -59,138 +60,147 @@ Partial Class rentalForm
         Me.youOweLabel = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
-        Me.summaryButton = New System.Windows.Forms.Button()
+        Me.SummaryButton = New System.Windows.Forms.Button()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.OdometerGroupBox.SuspendLayout()
         Me.DiscountGroupBox.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Label1
+        'CustomerNameLabel
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(8, 20)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(82, 13)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Customer &Name"
+        Me.CustomerNameLabel.AutoSize = True
+        Me.CustomerNameLabel.Location = New System.Drawing.Point(8, 20)
+        Me.CustomerNameLabel.Name = "CustomerNameLabel"
+        Me.CustomerNameLabel.Size = New System.Drawing.Size(82, 13)
+        Me.CustomerNameLabel.TabIndex = 0
+        Me.CustomerNameLabel.Text = "Customer &Name"
         '
-        'Label2
+        'AddressLabel
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(8, 48)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(45, 13)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "&Address"
+        Me.AddressLabel.AutoSize = True
+        Me.AddressLabel.Location = New System.Drawing.Point(8, 48)
+        Me.AddressLabel.Name = "AddressLabel"
+        Me.AddressLabel.Size = New System.Drawing.Size(45, 13)
+        Me.AddressLabel.TabIndex = 2
+        Me.AddressLabel.Text = "&Address"
         '
-        'Label3
+        'CityLabel
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(8, 76)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(24, 13)
-        Me.Label3.TabIndex = 4
-        Me.Label3.Text = "C&ity"
+        Me.CityLabel.AutoSize = True
+        Me.CityLabel.Location = New System.Drawing.Point(8, 76)
+        Me.CityLabel.Name = "CityLabel"
+        Me.CityLabel.Size = New System.Drawing.Size(24, 13)
+        Me.CityLabel.TabIndex = 4
+        Me.CityLabel.Text = "C&ity"
         '
-        'Label4
+        'StateLabel
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(8, 104)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(32, 13)
-        Me.Label4.TabIndex = 6
-        Me.Label4.Text = "&State"
+        Me.StateLabel.AutoSize = True
+        Me.StateLabel.Location = New System.Drawing.Point(8, 104)
+        Me.StateLabel.Name = "StateLabel"
+        Me.StateLabel.Size = New System.Drawing.Size(32, 13)
+        Me.StateLabel.TabIndex = 6
+        Me.StateLabel.Text = "&State"
         '
-        'Label5
+        'ZipCodeLabel
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(8, 132)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(50, 13)
-        Me.Label5.TabIndex = 8
-        Me.Label5.Text = "&Zip Code"
+        Me.ZipCodeLabel.AutoSize = True
+        Me.ZipCodeLabel.Location = New System.Drawing.Point(8, 132)
+        Me.ZipCodeLabel.Name = "ZipCodeLabel"
+        Me.ZipCodeLabel.Size = New System.Drawing.Size(50, 13)
+        Me.ZipCodeLabel.TabIndex = 8
+        Me.ZipCodeLabel.Text = "&Zip Code"
         '
-        'Label6
+        'BeginningOdometerLabel
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(8, 160)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(146, 13)
-        Me.Label6.TabIndex = 10
-        Me.Label6.Text = "&Beginning Odometer Reading"
+        Me.BeginningOdometerLabel.AutoSize = True
+        Me.BeginningOdometerLabel.Location = New System.Drawing.Point(8, 160)
+        Me.BeginningOdometerLabel.Name = "BeginningOdometerLabel"
+        Me.BeginningOdometerLabel.Size = New System.Drawing.Size(146, 13)
+        Me.BeginningOdometerLabel.TabIndex = 10
+        Me.BeginningOdometerLabel.Text = "&Beginning Odometer Reading"
         '
-        'Label7
+        'EndingOdometerLabel
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(8, 188)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(132, 13)
-        Me.Label7.TabIndex = 12
-        Me.Label7.Text = "&Ending Odometer Reading"
+        Me.EndingOdometerLabel.AutoSize = True
+        Me.EndingOdometerLabel.Location = New System.Drawing.Point(8, 188)
+        Me.EndingOdometerLabel.Name = "EndingOdometerLabel"
+        Me.EndingOdometerLabel.Size = New System.Drawing.Size(132, 13)
+        Me.EndingOdometerLabel.TabIndex = 12
+        Me.EndingOdometerLabel.Text = "&Ending Odometer Reading"
         '
-        'Label8
+        'DayCountLabel
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(8, 216)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(83, 13)
-        Me.Label8.TabIndex = 14
-        Me.Label8.Text = "N&umber of Days"
+        Me.DayCountLabel.AutoSize = True
+        Me.DayCountLabel.Location = New System.Drawing.Point(8, 216)
+        Me.DayCountLabel.Name = "DayCountLabel"
+        Me.DayCountLabel.Size = New System.Drawing.Size(83, 13)
+        Me.DayCountLabel.TabIndex = 14
+        Me.DayCountLabel.Text = "N&umber of Days"
         '
-        'nameTextBox
+        'NameTextBox
         '
-        Me.nameTextBox.Location = New System.Drawing.Point(160, 16)
-        Me.nameTextBox.Name = "nameTextBox"
-        Me.nameTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.nameTextBox.TabIndex = 1
+        Me.NameTextBox.Location = New System.Drawing.Point(160, 16)
+        Me.NameTextBox.Name = "NameTextBox"
+        Me.NameTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.NameTextBox.TabIndex = 1
+        Me.ToolTip1.SetToolTip(Me.NameTextBox, "Enter the name of the customer.")
         '
-        'addressTextBox
+        'AddressTextBox
         '
-        Me.addressTextBox.Location = New System.Drawing.Point(160, 44)
-        Me.addressTextBox.Name = "addressTextBox"
-        Me.addressTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.addressTextBox.TabIndex = 3
+        Me.AddressTextBox.Location = New System.Drawing.Point(160, 44)
+        Me.AddressTextBox.Name = "AddressTextBox"
+        Me.AddressTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.AddressTextBox.TabIndex = 3
+        Me.ToolTip1.SetToolTip(Me.AddressTextBox, "Enter the address of the customer.")
         '
-        'cityTextBox
+        'CityTextBox
         '
-        Me.cityTextBox.Location = New System.Drawing.Point(160, 72)
-        Me.cityTextBox.Name = "cityTextBox"
-        Me.cityTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.cityTextBox.TabIndex = 5
+        Me.CityTextBox.Location = New System.Drawing.Point(160, 72)
+        Me.CityTextBox.Name = "CityTextBox"
+        Me.CityTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.CityTextBox.TabIndex = 5
+        Me.ToolTip1.SetToolTip(Me.CityTextBox, "Enter the customers City.")
         '
-        'stateTextBox
+        'StateTextBox
         '
-        Me.stateTextBox.Location = New System.Drawing.Point(160, 100)
-        Me.stateTextBox.Name = "stateTextBox"
-        Me.stateTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.stateTextBox.TabIndex = 7
+        Me.StateTextBox.Location = New System.Drawing.Point(160, 100)
+        Me.StateTextBox.Name = "StateTextBox"
+        Me.StateTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.StateTextBox.TabIndex = 7
+        Me.ToolTip1.SetToolTip(Me.StateTextBox, "Enter the customers State.")
         '
-        'zipCodeTextBox
+        'ZipCodeTextBox
         '
-        Me.zipCodeTextBox.Location = New System.Drawing.Point(160, 128)
-        Me.zipCodeTextBox.Name = "zipCodeTextBox"
-        Me.zipCodeTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.zipCodeTextBox.TabIndex = 9
+        Me.ZipCodeTextBox.Location = New System.Drawing.Point(160, 128)
+        Me.ZipCodeTextBox.Name = "ZipCodeTextBox"
+        Me.ZipCodeTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.ZipCodeTextBox.TabIndex = 9
+        Me.ToolTip1.SetToolTip(Me.ZipCodeTextBox, "Enter the customers Zip Code.")
         '
-        'beginOdometerTextBox
+        'BeginOdometerTextBox
         '
-        Me.beginOdometerTextBox.Location = New System.Drawing.Point(160, 156)
-        Me.beginOdometerTextBox.Name = "beginOdometerTextBox"
-        Me.beginOdometerTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.beginOdometerTextBox.TabIndex = 11
+        Me.BeginOdometerTextBox.Location = New System.Drawing.Point(160, 156)
+        Me.BeginOdometerTextBox.Name = "BeginOdometerTextBox"
+        Me.BeginOdometerTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.BeginOdometerTextBox.TabIndex = 11
+        Me.ToolTip1.SetToolTip(Me.BeginOdometerTextBox, "Enter the initial odometer reading.")
         '
-        'endOdometerTextBox
+        'EndOdometerTextBox
         '
-        Me.endOdometerTextBox.Location = New System.Drawing.Point(160, 184)
-        Me.endOdometerTextBox.Name = "endOdometerTextBox"
-        Me.endOdometerTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.endOdometerTextBox.TabIndex = 13
+        Me.EndOdometerTextBox.Location = New System.Drawing.Point(160, 184)
+        Me.EndOdometerTextBox.Name = "EndOdometerTextBox"
+        Me.EndOdometerTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.EndOdometerTextBox.TabIndex = 13
+        Me.ToolTip1.SetToolTip(Me.EndOdometerTextBox, "Enter the final odometer reading.")
         '
-        'daysTextBox
+        'DaysTextBox
         '
-        Me.daysTextBox.Location = New System.Drawing.Point(160, 212)
-        Me.daysTextBox.Name = "daysTextBox"
-        Me.daysTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.daysTextBox.TabIndex = 15
+        Me.DaysTextBox.Location = New System.Drawing.Point(160, 212)
+        Me.DaysTextBox.Name = "DaysTextBox"
+        Me.DaysTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.DaysTextBox.TabIndex = 15
+        Me.ToolTip1.SetToolTip(Me.DaysTextBox, "Enter the number of rental days.")
         '
         'OdometerGroupBox
         '
@@ -203,6 +213,7 @@ Partial Class rentalForm
         Me.OdometerGroupBox.TabIndex = 16
         Me.OdometerGroupBox.TabStop = False
         Me.OdometerGroupBox.Text = "Is Odometer in Miles or Kilometers?"
+        Me.ToolTip1.SetToolTip(Me.OdometerGroupBox, "Is odometer reading in miles or kilometers?")
         '
         'kilometersRadioButton
         '
@@ -246,6 +257,7 @@ Partial Class rentalForm
         Me.seniorCheckBox.Size = New System.Drawing.Size(211, 20)
         Me.seniorCheckBox.TabIndex = 1
         Me.seniorCheckBox.Text = "Seni&or Citizen Discount"
+        Me.ToolTip1.SetToolTip(Me.seniorCheckBox, "3% Senior Discount")
         Me.seniorCheckBox.UseVisualStyleBackColor = True
         '
         'aaaCheckBox
@@ -256,35 +268,39 @@ Partial Class rentalForm
         Me.aaaCheckBox.Size = New System.Drawing.Size(179, 20)
         Me.aaaCheckBox.TabIndex = 0
         Me.aaaCheckBox.Text = "AAA Member &Discount"
+        Me.ToolTip1.SetToolTip(Me.aaaCheckBox, "5% AAA discount")
         Me.aaaCheckBox.UseVisualStyleBackColor = True
         '
-        'calculateButton
+        'CalculateButton
         '
-        Me.calculateButton.Location = New System.Drawing.Point(128, 380)
-        Me.calculateButton.Name = "calculateButton"
-        Me.calculateButton.Size = New System.Drawing.Size(75, 23)
-        Me.calculateButton.TabIndex = 18
-        Me.calculateButton.Text = "&Calculate"
-        Me.calculateButton.UseVisualStyleBackColor = True
+        Me.CalculateButton.Location = New System.Drawing.Point(128, 380)
+        Me.CalculateButton.Name = "CalculateButton"
+        Me.CalculateButton.Size = New System.Drawing.Size(75, 23)
+        Me.CalculateButton.TabIndex = 18
+        Me.CalculateButton.Text = "&Calculate"
+        Me.ToolTip1.SetToolTip(Me.CalculateButton, "Enter Calculations")
+        Me.CalculateButton.UseVisualStyleBackColor = True
         '
-        'clearButton
+        'ClearButton
         '
-        Me.clearButton.Location = New System.Drawing.Point(220, 380)
-        Me.clearButton.Name = "clearButton"
-        Me.clearButton.Size = New System.Drawing.Size(75, 23)
-        Me.clearButton.TabIndex = 19
-        Me.clearButton.Text = " c"
-        Me.clearButton.UseVisualStyleBackColor = True
+        Me.ClearButton.Location = New System.Drawing.Point(220, 380)
+        Me.ClearButton.Name = "ClearButton"
+        Me.ClearButton.Size = New System.Drawing.Size(75, 23)
+        Me.ClearButton.TabIndex = 19
+        Me.ClearButton.Text = "C&lear"
+        Me.ToolTip1.SetToolTip(Me.ClearButton, "Clear the Form")
+        Me.ClearButton.UseVisualStyleBackColor = True
         '
-        'exitButton
+        'ExitButton
         '
-        Me.exitButton.Location = New System.Drawing.Point(408, 380)
-        Me.exitButton.Name = "exitButton"
-        Me.exitButton.Size = New System.Drawing.Size(75, 23)
-        Me.exitButton.TabIndex = 20
-        Me.exitButton.TabStop = False
-        Me.exitButton.Text = "E&xit"
-        Me.exitButton.UseVisualStyleBackColor = True
+        Me.ExitButton.Location = New System.Drawing.Point(408, 380)
+        Me.ExitButton.Name = "ExitButton"
+        Me.ExitButton.Size = New System.Drawing.Size(75, 23)
+        Me.ExitButton.TabIndex = 20
+        Me.ExitButton.TabStop = False
+        Me.ExitButton.Text = "E&xit"
+        Me.ToolTip1.SetToolTip(Me.ExitButton, "Exit the form.")
+        Me.ExitButton.UseVisualStyleBackColor = True
         '
         'Label9
         '
@@ -306,6 +322,7 @@ Partial Class rentalForm
         Me.milesDrivenLabel.Size = New System.Drawing.Size(128, 24)
         Me.milesDrivenLabel.TabIndex = 23
         Me.milesDrivenLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.ToolTip1.SetToolTip(Me.milesDrivenLabel, "Miles based on odometer readings.")
         '
         'Label10
         '
@@ -327,6 +344,7 @@ Partial Class rentalForm
         Me.mileChargeLabel.Size = New System.Drawing.Size(128, 24)
         Me.mileChargeLabel.TabIndex = 25
         Me.mileChargeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.ToolTip1.SetToolTip(Me.mileChargeLabel, "Cost based on distances.")
         '
         'Label12
         '
@@ -368,6 +386,7 @@ Partial Class rentalForm
         Me.dayChargeLabel.Size = New System.Drawing.Size(128, 24)
         Me.dayChargeLabel.TabIndex = 27
         Me.dayChargeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.ToolTip1.SetToolTip(Me.dayChargeLabel, "Charge for number of days.")
         '
         'discountLabel
         '
@@ -379,6 +398,7 @@ Partial Class rentalForm
         Me.discountLabel.Size = New System.Drawing.Size(128, 24)
         Me.discountLabel.TabIndex = 29
         Me.discountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.ToolTip1.SetToolTip(Me.discountLabel, "Discounts applied (select below)")
         '
         'youOweLabel
         '
@@ -390,6 +410,7 @@ Partial Class rentalForm
         Me.youOweLabel.Size = New System.Drawing.Size(128, 24)
         Me.youOweLabel.TabIndex = 31
         Me.youOweLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.ToolTip1.SetToolTip(Me.youOweLabel, "Balance due for rental.")
         '
         'Label18
         '
@@ -407,21 +428,22 @@ Partial Class rentalForm
         Me.Label19.Size = New System.Drawing.Size(3, 180)
         Me.Label19.TabIndex = 21
         '
-        'summaryButton
+        'SummaryButton
         '
-        Me.summaryButton.Location = New System.Drawing.Point(316, 380)
-        Me.summaryButton.Name = "summaryButton"
-        Me.summaryButton.Size = New System.Drawing.Size(75, 23)
-        Me.summaryButton.TabIndex = 33
-        Me.summaryButton.Text = "Summar&y"
-        Me.summaryButton.UseVisualStyleBackColor = True
+        Me.SummaryButton.Location = New System.Drawing.Point(316, 380)
+        Me.SummaryButton.Name = "SummaryButton"
+        Me.SummaryButton.Size = New System.Drawing.Size(75, 23)
+        Me.SummaryButton.TabIndex = 33
+        Me.SummaryButton.Text = "Summar&y"
+        Me.ToolTip1.SetToolTip(Me.SummaryButton, "Print Summary")
+        Me.SummaryButton.UseVisualStyleBackColor = True
         '
         'rentalForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(643, 437)
-        Me.Controls.Add(Me.summaryButton)
+        Me.Controls.Add(Me.SummaryButton)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.youOweLabel)
@@ -434,27 +456,27 @@ Partial Class rentalForm
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.milesDrivenLabel)
         Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.exitButton)
-        Me.Controls.Add(Me.clearButton)
-        Me.Controls.Add(Me.calculateButton)
+        Me.Controls.Add(Me.ExitButton)
+        Me.Controls.Add(Me.ClearButton)
+        Me.Controls.Add(Me.CalculateButton)
         Me.Controls.Add(Me.DiscountGroupBox)
         Me.Controls.Add(Me.OdometerGroupBox)
-        Me.Controls.Add(Me.daysTextBox)
-        Me.Controls.Add(Me.endOdometerTextBox)
-        Me.Controls.Add(Me.beginOdometerTextBox)
-        Me.Controls.Add(Me.zipCodeTextBox)
-        Me.Controls.Add(Me.stateTextBox)
-        Me.Controls.Add(Me.cityTextBox)
-        Me.Controls.Add(Me.addressTextBox)
-        Me.Controls.Add(Me.nameTextBox)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.DaysTextBox)
+        Me.Controls.Add(Me.EndOdometerTextBox)
+        Me.Controls.Add(Me.BeginOdometerTextBox)
+        Me.Controls.Add(Me.ZipCodeTextBox)
+        Me.Controls.Add(Me.StateTextBox)
+        Me.Controls.Add(Me.CityTextBox)
+        Me.Controls.Add(Me.AddressTextBox)
+        Me.Controls.Add(Me.NameTextBox)
+        Me.Controls.Add(Me.DayCountLabel)
+        Me.Controls.Add(Me.EndingOdometerLabel)
+        Me.Controls.Add(Me.BeginningOdometerLabel)
+        Me.Controls.Add(Me.ZipCodeLabel)
+        Me.Controls.Add(Me.StateLabel)
+        Me.Controls.Add(Me.CityLabel)
+        Me.Controls.Add(Me.AddressLabel)
+        Me.Controls.Add(Me.CustomerNameLabel)
         Me.Name = "rentalForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Acme Car Rental Service"
@@ -466,31 +488,31 @@ Partial Class rentalForm
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents Label7 As System.Windows.Forms.Label
-    Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents nameTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents addressTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents cityTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents stateTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents zipCodeTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents beginOdometerTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents endOdometerTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents daysTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents CustomerNameLabel As System.Windows.Forms.Label
+    Friend WithEvents AddressLabel As System.Windows.Forms.Label
+    Friend WithEvents CityLabel As System.Windows.Forms.Label
+    Friend WithEvents StateLabel As System.Windows.Forms.Label
+    Friend WithEvents ZipCodeLabel As System.Windows.Forms.Label
+    Friend WithEvents BeginningOdometerLabel As System.Windows.Forms.Label
+    Friend WithEvents EndingOdometerLabel As System.Windows.Forms.Label
+    Friend WithEvents DayCountLabel As System.Windows.Forms.Label
+    Friend WithEvents NameTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents AddressTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents CityTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents StateTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents ZipCodeTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents BeginOdometerTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents EndOdometerTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents DaysTextBox As System.Windows.Forms.TextBox
     Friend WithEvents OdometerGroupBox As System.Windows.Forms.GroupBox
     Friend WithEvents kilometersRadioButton As System.Windows.Forms.RadioButton
     Friend WithEvents milesRadioButton As System.Windows.Forms.RadioButton
     Friend WithEvents DiscountGroupBox As System.Windows.Forms.GroupBox
     Friend WithEvents seniorCheckBox As System.Windows.Forms.CheckBox
     Friend WithEvents aaaCheckBox As System.Windows.Forms.CheckBox
-    Friend WithEvents calculateButton As System.Windows.Forms.Button
-    Friend WithEvents clearButton As System.Windows.Forms.Button
-    Friend WithEvents exitButton As System.Windows.Forms.Button
+    Friend WithEvents CalculateButton As System.Windows.Forms.Button
+    Friend WithEvents ClearButton As System.Windows.Forms.Button
+    Friend WithEvents ExitButton As System.Windows.Forms.Button
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents milesDrivenLabel As System.Windows.Forms.Label
     Friend WithEvents Label10 As System.Windows.Forms.Label
@@ -503,5 +525,6 @@ Partial Class rentalForm
     Friend WithEvents youOweLabel As System.Windows.Forms.Label
     Friend WithEvents Label18 As System.Windows.Forms.Label
     Friend WithEvents Label19 As System.Windows.Forms.Label
-    Friend WithEvents summaryButton As System.Windows.Forms.Button
+    Friend WithEvents SummaryButton As System.Windows.Forms.Button
+    Friend WithEvents ToolTip1 As ToolTip
 End Class

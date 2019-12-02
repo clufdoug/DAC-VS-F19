@@ -1,7 +1,7 @@
 ﻿
 
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class HelloWorldLanguagesForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -25,27 +25,27 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.Language_French = New System.Windows.Forms.Button()
+        Me.LanguageFrenchButton = New System.Windows.Forms.Button()
         Me.ExitButton = New System.Windows.Forms.Button()
-        Me.Language_German = New System.Windows.Forms.Button()
-        Me.Language_Norwegian = New System.Windows.Forms.Button()
-        Me.Language_English = New System.Windows.Forms.Button()
-        Me.Language_Spanish = New System.Windows.Forms.Button()
-        Me.Language_Italian = New System.Windows.Forms.Button()
+        Me.LanguageGermanButton = New System.Windows.Forms.Button()
+        Me.LanguageNorwegianButton = New System.Windows.Forms.Button()
+        Me.LanguageEnglishButton = New System.Windows.Forms.Button()
+        Me.LanguageSpanishButton = New System.Windows.Forms.Button()
+        Me.LanguageItalianButton = New System.Windows.Forms.Button()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.HelloWorldHeadingLabel = New System.Windows.Forms.Label()
         Me.Text_Reply = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Language_French
+        'LanguageFrenchButton
         '
-        Me.Language_French.Location = New System.Drawing.Point(12, 295)
-        Me.Language_French.Name = "Language_French"
-        Me.Language_French.Size = New System.Drawing.Size(150, 50)
-        Me.Language_French.TabIndex = 0
-        Me.Language_French.Text = "&French"
-        Me.ToolTip1.SetToolTip(Me.Language_French, "Display ""Hello World"" in French")
-        Me.Language_French.UseVisualStyleBackColor = True
+        Me.LanguageFrenchButton.Location = New System.Drawing.Point(12, 295)
+        Me.LanguageFrenchButton.Name = "LanguageFrenchButton"
+        Me.LanguageFrenchButton.Size = New System.Drawing.Size(150, 50)
+        Me.LanguageFrenchButton.TabIndex = 0
+        Me.LanguageFrenchButton.Text = "&French"
+        Me.ToolTip1.SetToolTip(Me.LanguageFrenchButton, "Display ""Hello World"" in French")
+        Me.LanguageFrenchButton.UseVisualStyleBackColor = True
         '
         'ExitButton
         '
@@ -58,66 +58,66 @@ Partial Class Form1
         Me.ToolTip1.SetToolTip(Me.ExitButton, "Click to Exit")
         Me.ExitButton.UseVisualStyleBackColor = True
         '
-        'Language_German
+        'LanguageGermanButton
         '
-        Me.Language_German.Location = New System.Drawing.Point(168, 295)
-        Me.Language_German.Name = "Language_German"
-        Me.Language_German.Size = New System.Drawing.Size(150, 50)
-        Me.Language_German.TabIndex = 4
-        Me.Language_German.Text = "&German"
-        Me.ToolTip1.SetToolTip(Me.Language_German, "Display ""Hello World"" in German")
-        Me.Language_German.UseVisualStyleBackColor = True
+        Me.LanguageGermanButton.Location = New System.Drawing.Point(168, 295)
+        Me.LanguageGermanButton.Name = "LanguageGermanButton"
+        Me.LanguageGermanButton.Size = New System.Drawing.Size(150, 50)
+        Me.LanguageGermanButton.TabIndex = 4
+        Me.LanguageGermanButton.Text = "&German"
+        Me.ToolTip1.SetToolTip(Me.LanguageGermanButton, "Display ""Hello World"" in German")
+        Me.LanguageGermanButton.UseVisualStyleBackColor = True
         '
-        'Language_Norwegian
+        'LanguageNorwegianButton
         '
-        Me.Language_Norwegian.Location = New System.Drawing.Point(324, 295)
-        Me.Language_Norwegian.Name = "Language_Norwegian"
-        Me.Language_Norwegian.Size = New System.Drawing.Size(150, 50)
-        Me.Language_Norwegian.TabIndex = 5
-        Me.Language_Norwegian.Text = "&Norwegian"
-        Me.ToolTip1.SetToolTip(Me.Language_Norwegian, "Display ""Hello World"" in Norwegian")
-        Me.Language_Norwegian.UseVisualStyleBackColor = True
+        Me.LanguageNorwegianButton.Location = New System.Drawing.Point(324, 295)
+        Me.LanguageNorwegianButton.Name = "LanguageNorwegianButton"
+        Me.LanguageNorwegianButton.Size = New System.Drawing.Size(150, 50)
+        Me.LanguageNorwegianButton.TabIndex = 5
+        Me.LanguageNorwegianButton.Text = "&Norwegian"
+        Me.ToolTip1.SetToolTip(Me.LanguageNorwegianButton, "Display ""Hello World"" in Norwegian")
+        Me.LanguageNorwegianButton.UseVisualStyleBackColor = True
         '
-        'Language_English
+        'LanguageEnglishButton
         '
-        Me.Language_English.Location = New System.Drawing.Point(12, 239)
-        Me.Language_English.Name = "Language_English"
-        Me.Language_English.Size = New System.Drawing.Size(150, 50)
-        Me.Language_English.TabIndex = 6
-        Me.Language_English.Text = "&English"
-        Me.ToolTip1.SetToolTip(Me.Language_English, "Display ""Hello World"" in English")
-        Me.Language_English.UseVisualStyleBackColor = True
+        Me.LanguageEnglishButton.Location = New System.Drawing.Point(12, 239)
+        Me.LanguageEnglishButton.Name = "LanguageEnglishButton"
+        Me.LanguageEnglishButton.Size = New System.Drawing.Size(150, 50)
+        Me.LanguageEnglishButton.TabIndex = 6
+        Me.LanguageEnglishButton.Text = "&English"
+        Me.ToolTip1.SetToolTip(Me.LanguageEnglishButton, "Display ""Hello World"" in English")
+        Me.LanguageEnglishButton.UseVisualStyleBackColor = True
         '
-        'Language_Spanish
+        'LanguageSpanishButton
         '
-        Me.Language_Spanish.Location = New System.Drawing.Point(168, 239)
-        Me.Language_Spanish.Name = "Language_Spanish"
-        Me.Language_Spanish.Size = New System.Drawing.Size(150, 50)
-        Me.Language_Spanish.TabIndex = 7
-        Me.Language_Spanish.Text = "&Spanish"
-        Me.ToolTip1.SetToolTip(Me.Language_Spanish, "Display ""Hello World"" in Spanish")
-        Me.Language_Spanish.UseVisualStyleBackColor = True
+        Me.LanguageSpanishButton.Location = New System.Drawing.Point(168, 239)
+        Me.LanguageSpanishButton.Name = "LanguageSpanishButton"
+        Me.LanguageSpanishButton.Size = New System.Drawing.Size(150, 50)
+        Me.LanguageSpanishButton.TabIndex = 7
+        Me.LanguageSpanishButton.Text = "&Spanish"
+        Me.ToolTip1.SetToolTip(Me.LanguageSpanishButton, "Display ""Hello World"" in Spanish")
+        Me.LanguageSpanishButton.UseVisualStyleBackColor = True
         '
-        'Language_Italian
+        'LanguageItalianButton
         '
-        Me.Language_Italian.Location = New System.Drawing.Point(324, 239)
-        Me.Language_Italian.Name = "Language_Italian"
-        Me.Language_Italian.Size = New System.Drawing.Size(150, 50)
-        Me.Language_Italian.TabIndex = 8
-        Me.Language_Italian.Text = "&Italian"
-        Me.ToolTip1.SetToolTip(Me.Language_Italian, "Display ""Hello World"" in Italian")
-        Me.Language_Italian.UseVisualStyleBackColor = True
+        Me.LanguageItalianButton.Location = New System.Drawing.Point(324, 239)
+        Me.LanguageItalianButton.Name = "LanguageItalianButton"
+        Me.LanguageItalianButton.Size = New System.Drawing.Size(150, 50)
+        Me.LanguageItalianButton.TabIndex = 8
+        Me.LanguageItalianButton.Text = "&Italian"
+        Me.ToolTip1.SetToolTip(Me.LanguageItalianButton, "Display ""Hello World"" in Italian")
+        Me.LanguageItalianButton.UseVisualStyleBackColor = True
         '
-        'Label1
+        'HelloWorldHeadingLabel
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
-        Me.Label1.Location = New System.Drawing.Point(110, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(570, 20)
-        Me.Label1.TabIndex = 9
-        Me.Label1.Text = "People from around the world say ""Hello World"" in many different ways"
-        Me.ToolTip1.SetToolTip(Me.Label1, "Click below to display Hello World in different Languages.")
+        Me.HelloWorldHeadingLabel.AutoSize = True
+        Me.HelloWorldHeadingLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
+        Me.HelloWorldHeadingLabel.Location = New System.Drawing.Point(110, 9)
+        Me.HelloWorldHeadingLabel.Name = "HelloWorldHeadingLabel"
+        Me.HelloWorldHeadingLabel.Size = New System.Drawing.Size(570, 20)
+        Me.HelloWorldHeadingLabel.TabIndex = 9
+        Me.HelloWorldHeadingLabel.Text = "People from around the world say ""Hello World"" in many different ways"
+        Me.ToolTip1.SetToolTip(Me.HelloWorldHeadingLabel, "Click below to display Hello World in different Languages.")
         '
         'Text_Reply
         '
@@ -130,38 +130,38 @@ Partial Class Form1
         Me.Text_Reply.TabIndex = 10
         Me.Text_Reply.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
-        'Form1
+        'HelloWorldLanguagesForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(780, 357)
         Me.Controls.Add(Me.Text_Reply)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Language_Italian)
-        Me.Controls.Add(Me.Language_Spanish)
-        Me.Controls.Add(Me.Language_English)
-        Me.Controls.Add(Me.Language_Norwegian)
-        Me.Controls.Add(Me.Language_German)
+        Me.Controls.Add(Me.HelloWorldHeadingLabel)
+        Me.Controls.Add(Me.LanguageItalianButton)
+        Me.Controls.Add(Me.LanguageSpanishButton)
+        Me.Controls.Add(Me.LanguageEnglishButton)
+        Me.Controls.Add(Me.LanguageNorwegianButton)
+        Me.Controls.Add(Me.LanguageGermanButton)
         Me.Controls.Add(Me.ExitButton)
-        Me.Controls.Add(Me.Language_French)
+        Me.Controls.Add(Me.LanguageFrenchButton)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
-        Me.Name = "Form1"
+        Me.Name = "HelloWorldLanguagesForm"
         Me.Text = "Hello World"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Language_French As Button
+    Friend WithEvents LanguageFrenchButton As Button
     Friend WithEvents ExitButton As Button
     Friend WithEvents ToolTip1 As ToolTip
-    Friend WithEvents Language_German As Button
-    Friend WithEvents Language_Norwegian As Button
-    Friend WithEvents Language_English As Button
-    Friend WithEvents Language_Spanish As Button
-    Friend WithEvents Language_Italian As Button
-    Friend WithEvents Label1 As Label
+    Friend WithEvents LanguageGermanButton As Button
+    Friend WithEvents LanguageNorwegianButton As Button
+    Friend WithEvents LanguageEnglishButton As Button
+    Friend WithEvents LanguageSpanishButton As Button
+    Friend WithEvents LanguageItalianButton As Button
+    Friend WithEvents HelloWorldHeadingLabel As Label
     Friend WithEvents Text_Reply As Label
 
 
